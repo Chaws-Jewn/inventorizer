@@ -1,0 +1,23 @@
+.navbar {
+  .content {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: var(--primary-color-text);
+    width: 100%;
+  }
+
+  .content:hover {
+    background-color: var(--accent-color);
+  }
+
+  &-top {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+    text-align: center;
+  }
+
+  &-left {
+    display: block;
+  }
+}
